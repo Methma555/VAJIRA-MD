@@ -6,9 +6,9 @@ function convertToBool(text, fault = 'true') {
 
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=CMFXwJIR#3-b6FBJYNK2Hb-HHTMo-8FmAbAOPYOlfUm2I9_wKFWI' : process.env.SESSION_ID,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '0766403734' : process.env.OWNER_NUMBER,
-N_JID: process.env.N_JID=== undefined ? '‌0766403734': process.env.N_JID,    
+SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=2ZtBRLBY#eNUYNVZoFyB3d-XWitshSBe7vXE-BuMH_McqVhrgJKg' : process.env.SESSION_ID,
+OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '0740651063' : process.env.OWNER_NUMBER,
+N_JID: process.env.N_JID=== undefined ? '‌0740651063': process.env.N_JID,    
 PREFIX: process.env.PREFIX || '.' ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,   
 MAX_SIZE: 500,
